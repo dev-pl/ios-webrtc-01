@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A0752641AFECE6500B87C69 /* OpenWebRTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A0752631AFECE6500B87C69 /* OpenWebRTC.framework */; };
+		3C91463A1586377D00267C0B /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9146391586377D00267C0B /* CoreVideo.framework */; };
+		3C91463D158637AE00267C0B /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C91463C158637AE00267C0B /* CoreMedia.framework */; };
+		6C2B891E16270E5C004FA15F /* about.html in Resources */ = {isa = PBXBuildFile; fileRef = 6C2B891D16270E5C004FA15F /* about.html */; };
+		6C733904163ED77B001908E5 /* BowserConfirmView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C733903163ED77B001908E5 /* BowserConfirmView.m */; };
+		6C733907163EE300001908E5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C733906163EE300001908E5 /* QuartzCore.framework */; };
+		6C77B9C11599A7C200AFECC2 /* BowserHistory.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6C77B9C01599A7C200AFECC2 /* BowserHistory.plist */; };
+		6C77B9CC1599D93F00AFECC2 /* BowserFavicon.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C77B9CB1599D93F00AFECC2 /* BowserFavicon.m */; };
+		6C77B9D71599E1D700AFECC2 /* BowserHistoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C77B9D61599E1D600AFECC2 /* BowserHistoryTableViewCell.m */; };
+		6CB480391642972C00425E13 /* BowserMediaPermissionURLs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6CB480381642972C00425E13 /* BowserMediaPermissionURLs.plist */; };
+		6CE852B51593503F00404367 /* BowserWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE852B41593503F00404367 /* BowserWebView.m */; };
+		6CEFE68E164954010030C290 /* BowserMediaAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CEFE68D164954010030C290 /* BowserMediaAlertView.m */; };
+		7442244219D9A84D00852460 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7442244119D9A84D00852460 /* JavaScriptCore.framework */; };
+		749EFA2C19A3D0AA00107C9A /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 749EFA2B19A3D0AA00107C9A /* libc++.dylib */; };
+		749EFA2E19A3D0B300107C9A /* libresolv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 749EFA2D19A3D0B200107C9A /* libresolv.dylib */; };
+		749EFA3019A3D0B800107C9A /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 749EFA2F19A3D0B800107C9A /* libiconv.dylib */; };
+		749EFA3219A3D0C000107C9A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749EFA3119A3D0C000107C9A /* OpenGLES.framework */; };
+		749EFA3419A3D0C900107C9A /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749EFA3319A3D0C900107C9A /* AssetsLibrary.framework */; };
+		B7E3D0D615625681003DE0F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7E3D0D515625681003DE0F1 /* UIKit.framework */; };
+		B7E3D0D815625681003DE0F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7E3D0D715625681003DE0F1 /* Foundation.framework */; };
+		B7E3D0DA15625681003DE0F1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7E3D0D915625681003DE0F1 /* CoreGraphics.framework */; };
+		B7E3D0E015625681003DE0F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B7E3D0DE15625681003DE0F1 /* InfoPlist.strings */; };
+		B7E3D0E215625681003DE0F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E3D0E115625681003DE0F1 /* main.m */; };
+		B7E3D0E615625681003DE0F1 /* BowserAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E3D0E515625681003DE0F1 /* BowserAppDelegate.m */; };
+		B7E3D0E915625681003DE0F1 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7E3D0E715625681003DE0F1 /* MainStoryboard_iPhone.storyboard */; };
+		B7E3D0EC15625681003DE0F1 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7E3D0EA15625681003DE0F1 /* MainStoryboard_iPad.storyboard */; };
+		B7E3D0EF15625681003DE0F1 /* BowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E3D0EE15625681003DE0F1 /* BowserViewController.m */; };
+		B7F52B31157612E4001330BD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7F52B2E157612E4001330BD /* AVFoundation.framework */; };
+		B7F52B32157612E4001330BD /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7F52B2F157612E4001330BD /* CoreAudio.framework */; };
+		B7F52B3415761324001330BD /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7F52B3315761324001330BD /* AudioToolbox.framework */; };
+		F81B2E001A0BC7580053E19A /* Bookmarks.plist in Resources */ = {isa = PBXBuildFile; fileRef = F81B2DFF1A0BC7580053E19A /* Bookmarks.plist */; };
+		F81B2E031A0BD8390053E19A /* BookmarksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F81B2E021A0BD8390053E19A /* BookmarksViewController.m */; };
+		F81B2E071A0BFB8A0053E19A /* AddBookmarkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F81B2E061A0BFB8A0053E19A /* AddBookmarkViewController.m */; };
+		F84D76DD19A368C20039552D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F84D76DC19A368C20039552D /* Images.xcassets */; };
+		F89E07B615F8CB5B00262F59 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A82AEC15F8C00E003460E5 /* AboutViewController.m */; };
+		F8AE2FC219D0A3F40083C6BF /* OpenWebRTC-Logo-w400.png in Resources */ = {isa = PBXBuildFile; fileRef = F8AE2FC119D0A3F40083C6BF /* OpenWebRTC-Logo-w400.png */; };
+		F8F3813019D00A6300A1B471 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8F3812F19D00A6300A1B471 /* Launch Screen.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A0752631AFECE6500B87C69 /* OpenWebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenWebRTC.framework; sourceTree = "<group>"; };
+		3C9146391586377D00267C0B /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		3C91463C158637AE00267C0B /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		6C2B891D16270E5C004FA15F /* about.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = about.html; path = "../bowser-generic/js/about.html"; sourceTree = "<group>"; };
+		6C733902163ED77B001908E5 /* BowserConfirmView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BowserConfirmView.h; sourceTree = "<group>"; };
+		6C733903163ED77B001908E5 /* BowserConfirmView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BowserConfirmView.m; sourceTree = "<group>"; };
+		6C733906163EE300001908E5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6C77B9C01599A7C200AFECC2 /* BowserHistory.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BowserHistory.plist; sourceTree = "<group>"; };
+		6C77B9CA1599D93F00AFECC2 /* BowserFavicon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BowserFavicon.h; sourceTree = "<group>"; };
+		6C77B9CB1599D93F00AFECC2 /* BowserFavicon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BowserFavicon.m; sourceTree = "<group>"; };
+		6C77B9D51599E1D600AFECC2 /* BowserHistoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BowserHistoryTableViewCell.h; sourceTree = "<group>"; };
+		6C77B9D61599E1D600AFECC2 /* BowserHistoryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BowserHistoryTableViewCell.m; sourceTree = "<group>"; };
+		6CB480381642972C00425E13 /* BowserMediaPermissionURLs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BowserMediaPermissionURLs.plist; sourceTree = "<group>"; };
+		6CE852B31593503F00404367 /* BowserWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BowserWebView.h; sourceTree = "<group>"; };
+		6CE852B41593503F00404367 /* BowserWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BowserWebView.m; sourceTree = "<group>"; };
+		6CEFE68C164954010030C290 /* BowserMediaAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BowserMediaAlertView.h; sourceTree = "<group>"; };
+		6CEFE68D164954010030C290 /* BowserMediaAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BowserMediaAlertView.m; sourceTree = "<group>"; };
+		7442244119D9A84D00852460 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		749EFA2B19A3D0AA00107C9A /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		749EFA2D19A3D0B200107C9A /* libresolv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libresolv.dylib; path = usr/lib/libresolv.dylib; sourceTree = SDKROOT; };
+		749EFA2F19A3D0B800107C9A /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		749EFA3119A3D0C000107C9A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		749EFA3319A3D0C900107C9A /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		B7E3D0D115625681003DE0F1 /* Bowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7E3D0D515625681003DE0F1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B7E3D0D715625681003DE0F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B7E3D0D915625681003DE0F1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B7E3D0DD15625681003DE0F1 /* Bowser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bowser-Info.plist"; sourceTree = "<group>"; };
+		B7E3D0DF15625681003DE0F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B7E3D0E115625681003DE0F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B7E3D0E315625681003DE0F1 /* Bowser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bowser-Prefix.pch"; sourceTree = "<group>"; };
+		B7E3D0E415625681003DE0F1 /* BowserAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BowserAppDelegate.h; sourceTree = "<group>"; };
+		B7E3D0E515625681003DE0F1 /* BowserAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BowserAppDelegate.m; sourceTree = "<group>"; };
+		B7E3D0E815625681003DE0F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		B7E3D0EB15625681003DE0F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		B7E3D0ED15625681003DE0F1 /* BowserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BowserViewController.h; sourceTree = "<group>"; };
+		B7E3D0EE15625681003DE0F1 /* BowserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BowserViewController.m; sourceTree = "<group>"; };
+		B7F52B2E157612E4001330BD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B7F52B2F157612E4001330BD /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		B7F52B3315761324001330BD /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F81B2DFC1A0BC1060053E19A /* Bowser-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bowser-Bridging-Header.h"; sourceTree = "<group>"; };
+		F81B2DFF1A0BC7580053E19A /* Bookmarks.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Bookmarks.plist; sourceTree = "<group>"; };
+		F81B2E011A0BD8390053E19A /* BookmarksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookmarksViewController.h; sourceTree = "<group>"; };
+		F81B2E021A0BD8390053E19A /* BookmarksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookmarksViewController.m; sourceTree = "<group>"; };
+		F81B2E051A0BFB8A0053E19A /* AddBookmarkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddBookmarkViewController.h; sourceTree = "<group>"; };
+		F81B2E061A0BFB8A0053E19A /* AddBookmarkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddBookmarkViewController.m; sourceTree = "<group>"; };
+		F84D76DC19A368C20039552D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
+		F8A82AEB15F8C00E003460E5 /* AboutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AboutViewController.h; path = ../AboutViewController.h; sourceTree = "<group>"; };
+		F8A82AEC15F8C00E003460E5 /* AboutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AboutViewController.m; path = ../AboutViewController.m; sourceTree = "<group>"; };
+		F8AE2FC119D0A3F40083C6BF /* OpenWebRTC-Logo-w400.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "OpenWebRTC-Logo-w400.png"; path = "../OpenWebRTC-Logo-w400.png"; sourceTree = "<group>"; };
+		F8F3812F19D00A6300A1B471 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7E3D0CE15625681003DE0F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7442244219D9A84D00852460 /* JavaScriptCore.framework in Frameworks */,
+				749EFA3419A3D0C900107C9A /* AssetsLibrary.framework in Frameworks */,
+				749EFA3219A3D0C000107C9A /* OpenGLES.framework in Frameworks */,
+				749EFA3019A3D0B800107C9A /* libiconv.dylib in Frameworks */,
+				749EFA2E19A3D0B300107C9A /* libresolv.dylib in Frameworks */,
+				0A0752641AFECE6500B87C69 /* OpenWebRTC.framework in Frameworks */,
+				749EFA2C19A3D0AA00107C9A /* libc++.dylib in Frameworks */,
+				6C733907163EE300001908E5 /* QuartzCore.framework in Frameworks */,
+				3C91463D158637AE00267C0B /* CoreMedia.framework in Frameworks */,
+				3C91463A1586377D00267C0B /* CoreVideo.framework in Frameworks */,
+				B7F52B3415761324001330BD /* AudioToolbox.framework in Frameworks */,
+				B7F52B31157612E4001330BD /* AVFoundation.framework in Frameworks */,
+				B7F52B32157612E4001330BD /* CoreAudio.framework in Frameworks */,
+				B7E3D0D615625681003DE0F1 /* UIKit.framework in Frameworks */,
+				B7E3D0D815625681003DE0F1 /* Foundation.framework in Frameworks */,
+				B7E3D0DA15625681003DE0F1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7E3D0C615625681003DE0F1 = {
+			isa = PBXGroup;
+			children = (
+				B7E3D11115629DA3003DE0F1 /* generic */,
+				B7E3D0DB15625681003DE0F1 /* Bowser */,
+				B7E3D0D415625681003DE0F1 /* Frameworks */,
+				B7E3D0D215625681003DE0F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7E3D0D215625681003DE0F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7E3D0D115625681003DE0F1 /* Bowser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7E3D0D415625681003DE0F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A0752631AFECE6500B87C69 /* OpenWebRTC.framework */,
+				7442244119D9A84D00852460 /* JavaScriptCore.framework */,
+				749EFA3319A3D0C900107C9A /* AssetsLibrary.framework */,
+				749EFA3119A3D0C000107C9A /* OpenGLES.framework */,
+				749EFA2F19A3D0B800107C9A /* libiconv.dylib */,
+				749EFA2D19A3D0B200107C9A /* libresolv.dylib */,
+				749EFA2B19A3D0AA00107C9A /* libc++.dylib */,
+				6C733906163EE300001908E5 /* QuartzCore.framework */,
+				3C91463C158637AE00267C0B /* CoreMedia.framework */,
+				3C9146391586377D00267C0B /* CoreVideo.framework */,
+				B7F52B3315761324001330BD /* AudioToolbox.framework */,
+				B7F52B2E157612E4001330BD /* AVFoundation.framework */,
+				B7F52B2F157612E4001330BD /* CoreAudio.framework */,
+				B7E3D0D515625681003DE0F1 /* UIKit.framework */,
+				B7E3D0D715625681003DE0F1 /* Foundation.framework */,
+				B7E3D0D915625681003DE0F1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7E3D0DB15625681003DE0F1 /* Bowser */ = {
+			isa = PBXGroup;
+			children = (
+				F81B2E041A0BFB600053E19A /* Bookmarks */,
+				B7E3D0E415625681003DE0F1 /* BowserAppDelegate.h */,
+				B7E3D0E515625681003DE0F1 /* BowserAppDelegate.m */,
+				B7E3D0E715625681003DE0F1 /* MainStoryboard_iPhone.storyboard */,
+				B7E3D0EA15625681003DE0F1 /* MainStoryboard_iPad.storyboard */,
+				F8F3812F19D00A6300A1B471 /* Launch Screen.xib */,
+				B7E3D0ED15625681003DE0F1 /* BowserViewController.h */,
+				B7E3D0EE15625681003DE0F1 /* BowserViewController.m */,
+				B7E3D0DC15625681003DE0F1 /* Supporting Files */,
+				6CE852B31593503F00404367 /* BowserWebView.h */,
+				6CE852B41593503F00404367 /* BowserWebView.m */,
+				6C77B9C01599A7C200AFECC2 /* BowserHistory.plist */,
+				6CB480381642972C00425E13 /* BowserMediaPermissionURLs.plist */,
+				6C77B9CA1599D93F00AFECC2 /* BowserFavicon.h */,
+				6C77B9CB1599D93F00AFECC2 /* BowserFavicon.m */,
+				6C77B9D51599E1D600AFECC2 /* BowserHistoryTableViewCell.h */,
+				6C77B9D61599E1D600AFECC2 /* BowserHistoryTableViewCell.m */,
+				F8A82AEB15F8C00E003460E5 /* AboutViewController.h */,
+				F8A82AEC15F8C00E003460E5 /* AboutViewController.m */,
+				6C733902163ED77B001908E5 /* BowserConfirmView.h */,
+				6C733903163ED77B001908E5 /* BowserConfirmView.m */,
+				6CEFE68C164954010030C290 /* BowserMediaAlertView.h */,
+				6CEFE68D164954010030C290 /* BowserMediaAlertView.m */,
+			);
+			path = Bowser;
+			sourceTree = "<group>";
+		};
+		B7E3D0DC15625681003DE0F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8AE2FC119D0A3F40083C6BF /* OpenWebRTC-Logo-w400.png */,
+				F84D76DC19A368C20039552D /* Images.xcassets */,
+				B7E3D0DD15625681003DE0F1 /* Bowser-Info.plist */,
+				B7E3D0DE15625681003DE0F1 /* InfoPlist.strings */,
+				B7E3D0E115625681003DE0F1 /* main.m */,
+				B7E3D0E315625681003DE0F1 /* Bowser-Prefix.pch */,
+				F81B2DFC1A0BC1060053E19A /* Bowser-Bridging-Header.h */,
+				F81B2DFF1A0BC7580053E19A /* Bookmarks.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B7E3D11115629DA3003DE0F1 /* generic */ = {
+			isa = PBXGroup;
+			children = (
+				6C2B891D16270E5C004FA15F /* about.html */,
+				B7E3D11215629DC0003DE0F1 /* tests */,
+			);
+			name = generic;
+			sourceTree = "<group>";
+		};
+		B7E3D11215629DC0003DE0F1 /* tests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = tests;
+			sourceTree = "<group>";
+		};
+		F81B2E041A0BFB600053E19A /* Bookmarks */ = {
+			isa = PBXGroup;
+			children = (
+				F81B2E011A0BD8390053E19A /* BookmarksViewController.h */,
+				F81B2E021A0BD8390053E19A /* BookmarksViewController.m */,
+				F81B2E051A0BFB8A0053E19A /* AddBookmarkViewController.h */,
+				F81B2E061A0BFB8A0053E19A /* AddBookmarkViewController.m */,
+			);
+			name = Bookmarks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7E3D0D015625681003DE0F1 /* Bowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7E3D0F215625681003DE0F1 /* Build configuration list for PBXNativeTarget "Bowser" */;
+			buildPhases = (
+				B7E3D0CD15625681003DE0F1 /* Sources */,
+				B7E3D0CE15625681003DE0F1 /* Frameworks */,
+				B7E3D0CF15625681003DE0F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bowser;
+			productName = Bowser;
+			productReference = B7E3D0D115625681003DE0F1 /* Bowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7E3D0C815625681003DE0F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Bowser;
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Ericsson Research";
+				TargetAttributes = {
+					B7E3D0D015625681003DE0F1 = {
+						DevelopmentTeam = QNW23K4FHB;
+					};
+				};
+			};
+			buildConfigurationList = B7E3D0CB15625681003DE0F1 /* Build configuration list for PBXProject "Bowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B7E3D0C615625681003DE0F1;
+			productRefGroup = B7E3D0D215625681003DE0F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7E3D0D015625681003DE0F1 /* Bowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7E3D0CF15625681003DE0F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F81B2E001A0BC7580053E19A /* Bookmarks.plist in Resources */,
+				B7E3D0E015625681003DE0F1 /* InfoPlist.strings in Resources */,
+				B7E3D0E915625681003DE0F1 /* MainStoryboard_iPhone.storyboard in Resources */,
+				B7E3D0EC15625681003DE0F1 /* MainStoryboard_iPad.storyboard in Resources */,
+				F8F3813019D00A6300A1B471 /* Launch Screen.xib in Resources */,
+				6C77B9C11599A7C200AFECC2 /* BowserHistory.plist in Resources */,
+				F8AE2FC219D0A3F40083C6BF /* OpenWebRTC-Logo-w400.png in Resources */,
+				F84D76DD19A368C20039552D /* Images.xcassets in Resources */,
+				6C2B891E16270E5C004FA15F /* about.html in Resources */,
+				6CB480391642972C00425E13 /* BowserMediaPermissionURLs.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7E3D0CD15625681003DE0F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89E07B615F8CB5B00262F59 /* AboutViewController.m in Sources */,
+				B7E3D0E215625681003DE0F1 /* main.m in Sources */,
+				B7E3D0E615625681003DE0F1 /* BowserAppDelegate.m in Sources */,
+				B7E3D0EF15625681003DE0F1 /* BowserViewController.m in Sources */,
+				6CE852B51593503F00404367 /* BowserWebView.m in Sources */,
+				6C77B9CC1599D93F00AFECC2 /* BowserFavicon.m in Sources */,
+				6C77B9D71599E1D700AFECC2 /* BowserHistoryTableViewCell.m in Sources */,
+				F81B2E031A0BD8390053E19A /* BookmarksViewController.m in Sources */,
+				6C733904163ED77B001908E5 /* BowserConfirmView.m in Sources */,
+				F81B2E071A0BFB8A0053E19A /* AddBookmarkViewController.m in Sources */,
+				6CEFE68E164954010030C290 /* BowserMediaAlertView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B7E3D0DE15625681003DE0F1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7E3D0DF15625681003DE0F1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B7E3D0E715625681003DE0F1 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7E3D0E815625681003DE0F1 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B7E3D0EA15625681003DE0F1 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7E3D0EB15625681003DE0F1 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7E3D0F015625681003DE0F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7E3D0F115625681003DE0F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7E3D0F315625681003DE0F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bowser/Bowser-Prefix.pch";
+				HEADER_SEARCH_PATHS = "~/Library/Developer/OpenWebRTC/iPhone.sdk/OpenWebRTC.framework/Headers/**";
+				INFOPLIST_FILE = "Bowser/Bowser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"~/Library/Developer/OpenWebRTC/iPhone.sdk/OpenWebRTC.framework/Headers/**",
+					"$(SRCROOT)",
+				);
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					VideoToolbox,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "Bowser/Bowser-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USER_HEADER_SEARCH_PATHS = "~/Library/Developer/OpenWebRTC/iPhone.sdk/OpenWebRTC.framework/Headers/**";
+				VALID_ARCHS = armv7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B7E3D0F415625681003DE0F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bowser/Bowser-Prefix.pch";
+				HEADER_SEARCH_PATHS = "~/Library/Developer/OpenWebRTC/iPhone.sdk/OpenWebRTC.framework/Headers/**";
+				INFOPLIST_FILE = "Bowser/Bowser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"~/Library/Developer/OpenWebRTC/iPhone.sdk/OpenWebRTC.framework/Headers/**",
+					"$(SRCROOT)",
+				);
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					VideoToolbox,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "Bowser/Bowser-Bridging-Header.h";
+				USER_HEADER_SEARCH_PATHS = "~/Library/Developer/OpenWebRTC/iPhone.sdk/OpenWebRTC.framework/Headers/**";
+				VALID_ARCHS = armv7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7E3D0CB15625681003DE0F1 /* Build configuration list for PBXProject "Bowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7E3D0F015625681003DE0F1 /* Debug */,
+				B7E3D0F115625681003DE0F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7E3D0F215625681003DE0F1 /* Build configuration list for PBXNativeTarget "Bowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7E3D0F315625681003DE0F1 /* Debug */,
+				B7E3D0F415625681003DE0F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7E3D0C815625681003DE0F1 /* Project object */;
+}

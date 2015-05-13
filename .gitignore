@@ -1,0 +1,8 @@
+Intermediates
+Products
+DerivedData
+xcuserdata
+xcshareddata
+*.pbxuser
+.DS_Store
+face
